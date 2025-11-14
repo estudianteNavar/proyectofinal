@@ -1,2 +1,3 @@
 # proyectofinal
 proyecto de clase 3semestre
+navar galindo Samantha bla bla aqui va lo del proyecto final
