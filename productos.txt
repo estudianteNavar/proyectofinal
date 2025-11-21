@@ -1,0 +1,5 @@
+1|juego de aventura|150|aventura
+2|apex legens|200|ficcion
+3|balatro|45|aventura
+4|Apex legens|200|accion
+5|yume niky|50|aventura/terror
