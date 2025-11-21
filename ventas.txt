@@ -1,0 +1,5 @@
+juego de aventura|150.0|2|300.0
+apex legens|200.0|5|1000.0
+balatro|45.0|3|135.0
+Apex legens|200.0|1|200.0
+yume niky|50.0|1|50.0
