@@ -295,7 +295,44 @@ def abrir_reportes():
 
 
 def abrir_acerca_de():
-    messagebox.showinfo("Acerca de", "Punto de Venta de Ropa\nProyecto Escolar\nVersión 1.0")
+    ventana = tk.Toplevel()
+    ventana.title("Acerca de")
+    ventana.geometry("400x400")
+    ventana.resizable(False, False)
+    ventana.configure(bg="#567fd6")
+
+    titulo = tk.Label(
+        ventana,
+        text="Acerca del Sistema",
+        font=("Arial", 16, "bold"),
+        bg="#567fd6"
+    )
+    titulo.pack(pady=10)
+
+    texto_info = (
+        "Punto de Venta - World Games\n"
+        "Sistema de registro de productos y ventas\n"
+        "\n"
+        "Versión: 1.0\n"
+        "Año: 2025\n"
+        "\n"
+        "Desarrollado como proyecto escolar.\n"
+        "Todos los derechos a OCAÑA VELA "
+        "Y NAVAR GALINDO."
+    )
+
+    lbl_info = tk.Label(
+        ventana,
+        text=texto_info,
+        font=("Arial", 12),
+        bg="#567fd6",
+        justify="center"
+    )
+    lbl_info.pack(pady=10)
+
+    btn_cerrar = ttk.Button(ventana, text="Cerrar", command=ventana.destroy)
+    btn_cerrar.pack(pady=10)
+    
 
 
 ventana = tk.Tk()
